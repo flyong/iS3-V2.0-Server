@@ -110,7 +110,6 @@
     <Compile Include="IRepository.cs" />
     <Compile Include="GeologyController.cs" />
     <Compile Include="iS3OAuth.cs" />
-    <Compile Include="MonitoringController.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ProjectController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -133,10 +132,6 @@
     <ProjectReference Include="..\iS3.Geology\iS3.Geology.csproj">
       <Project>{b7cefcbf-f7f9-4c2b-8660-52e518a79b3a}</Project>
       <Name>iS3.Geology</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\iS3.Monitoring\iS3.Monitoring.csproj">
-      <Project>{0baeb289-1cd7-403c-846c-ac7936620033}</Project>
-      <Name>iS3.Monitoring</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
